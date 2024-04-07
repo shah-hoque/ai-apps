@@ -1,9 +1,10 @@
 "use client";
 import React from "react";
-import { ContainerScroll } from "@/app/components/ui/container-scroll-animation";
+import { ContainerScroll } from "@/components/ui/container-scroll-animation";
 import Image from "next/image";
-import { HoverEffect } from "@/app/components/ui/card-hover-effect"
+import { HoverEffect } from "@/components/ui/card-hover-effect"
 import { projects } from "@/utils/home/cards";
+
 
 
 export default function HeroScrollDemo() {
