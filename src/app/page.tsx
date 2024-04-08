@@ -6,7 +6,6 @@ import { HoverEffect } from "@/components/ui/card-hover-effect"
 import { projects } from "@/utils/home/cards";
 
 
-
 export default function HeroScrollDemo() {
   return (
 
@@ -37,11 +36,9 @@ export default function HeroScrollDemo() {
     </div>
 
 
-
-<div className="max-w-5xl mx-auto px-8">
+    <div className="max-w-5xl mx-auto px-8">
       <HoverEffect items={projects} />
     </div>
-
 
 
     </div>
